@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93719927-55e4-49c3-afcc-e41163e76db6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DrumKit.java" afterPath="$PROJECT_DIR$/src/main/java/DrumKit.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guitar.java" afterPath="$PROJECT_DIR$/src/main/java/Guitar.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Piano.java" afterPath="$PROJECT_DIR$/src/main/java/Piano.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StockItems/Drumsticks.java" afterPath="$PROJECT_DIR$/src/main/java/StockItems/Drumsticks.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StockItems/GuitarStrings.java" afterPath="$PROJECT_DIR$/src/main/java/StockItems/GuitarStrings.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StockItems/Keyboard.java" afterPath="$PROJECT_DIR$/src/main/java/StockItems/Keyboard.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StockItemsTest/DrumsticksTest.java" afterPath="$PROJECT_DIR$/src/test/java/StockItemsTest/DrumsticksTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StockItemsTest/GuitarStringsTest.java" afterPath="$PROJECT_DIR$/src/test/java/StockItemsTest/GuitarStringsTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StockItemsTest/KeyboardTest.java" afterPath="$PROJECT_DIR$/src/test/java/StockItemsTest/KeyboardTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Shop.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -71,7 +62,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/StockItems/Keyboard.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="75">
@@ -154,8 +145,8 @@
           <file leaf-file-name="Piano.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/Piano.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                <state relative-caret-position="300">
+                  <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding>
                     <element signature="e#441#442#0" expanded="true" />
                     <element signature="e#495#496#0" expanded="true" />
@@ -179,12 +170,8 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="IPlay.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IPlay.java">
+          <file leaf-file-name="ISell.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/ISell.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
                   <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
@@ -193,8 +180,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ISell.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/ISell.java">
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="IPlay.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IPlay.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="60">
                   <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
@@ -247,7 +238,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="KeyboardTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="KeyboardTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/StockItemsTest/KeyboardTest.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="585">
@@ -266,6 +257,23 @@
                     <element signature="e#721#722#0" expanded="true" />
                     <element signature="e#764#765#0" expanded="true" />
                     <element signature="e#864#865#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Shop.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#458#459#0" expanded="true" />
+                    <element signature="e#495#496#0" expanded="true" />
+                    <element signature="e#542#543#0" expanded="true" />
+                    <element signature="e#582#583#0" expanded="true" />
+                    <element signature="e#659#660#0" expanded="true" />
+                    <element signature="e#712#713#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -622,6 +630,7 @@
         <option value="$PROJECT_DIR$/src/main/java/DrumKit.java" />
         <option value="$PROJECT_DIR$/src/main/java/StockItems/Keyboard.java" />
         <option value="$PROJECT_DIR$/src/test/java/StockItemsTest/KeyboardTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Shop.java" />
       </list>
     </option>
   </component>
@@ -1247,17 +1256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Piano.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PianoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="443">
@@ -1272,14 +1270,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/IPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/ISell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
@@ -1429,6 +1419,40 @@
             <element signature="e#721#722#0" expanded="true" />
             <element signature="e#764#765#0" expanded="true" />
             <element signature="e#864#865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Piano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Interfaces/ISell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
           </folding>
         </state>
       </provider>
