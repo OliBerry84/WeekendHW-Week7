@@ -1,6 +1,9 @@
 package StockItems;
 
-public class Keyboard {
+import Interfaces.IPlay;
+import Interfaces.ISell;
+
+public class Keyboard implements ISell, IPlay{
 
     private String description;
     private int buyPrice;
@@ -22,5 +25,13 @@ public class Keyboard {
 
     public int getSellPrice() {
         return sellPrice;
+    }
+
+    public int calculateMarkUp(int buyPrice, int sellPrice) {
+        return this.sellPrice - this.buyPrice;
+    }
+
+    public String play(String sound){
+        return "This instrument goes " + sound;
     }
 }

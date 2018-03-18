@@ -17,4 +17,8 @@ public class Piano extends Instrument{
         return keys;
     }
 
+    public String play(String sound){
+        return "This instrument goes " + sound;
+    }
+
 }

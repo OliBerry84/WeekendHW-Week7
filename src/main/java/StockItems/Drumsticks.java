@@ -7,13 +7,11 @@ public class Drumsticks {
     private String description;
     private int buyPrice;
     private int sellPrice;
-    private ISell markup;
 
-    public Drumsticks(String type, int buyPrice, int sellPrice, ISell markup){
+    public Drumsticks(String type, int buyPrice, int sellPrice){
         this.description = type;
         this.buyPrice = buyPrice;
         this.sellPrice = sellPrice;
-        this.markup = markup;
     }
 
         public String getDescription() {
@@ -28,11 +26,8 @@ public class Drumsticks {
             return sellPrice;
     }
 
-    public void setMarkUp(ISell markup){
-        this.markup = markup;
+    public int calculateMarkUp(int buyPrice, int sellPrice) {
+        return this.sellPrice - this.buyPrice;
     }
 
-    public int calculateMarkUp(int buyPrice, int sellPrice) {
-        return markup.calculateMarkUp(buyPrice, sellPrice);
-    }
 }

@@ -1,6 +1,8 @@
 package StockItems;
 
-public class GuitarStrings {
+import Interfaces.ISell;
+
+public class GuitarStrings implements ISell{
     
     private String description;
     private int buyPrice;
@@ -22,5 +24,9 @@ public class GuitarStrings {
 
     public int getSellPrice() {
         return sellPrice;
+    }
+
+    public int calculateMarkUp(int buyPrice, int sellPrice) {
+        return this.sellPrice - this.buyPrice;
     }
 }

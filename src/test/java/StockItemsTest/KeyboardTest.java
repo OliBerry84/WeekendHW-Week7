@@ -12,7 +12,7 @@ public class KeyboardTest {
 
     @Before
     public void before(){
-        keyboard = new Keyboard("Instrument", 75, 100);
+        keyboard = new Keyboard("Instrument", 120, 500);
     }
 
     @Test
@@ -28,5 +28,15 @@ public class KeyboardTest {
     @Test
     public void getSellPrice(){
         assertEquals(100, keyboard.getSellPrice());
+    }
+
+    @Test
+    public void getMarkUp(){
+        assertEquals(380, keyboard.calculateMarkUp(120,500));
+    }
+
+    @Test
+    public void canPlaySound(){
+        assertEquals("This instrument goes I'm a keyboard", keyboard.play("I'm a keyboard"));
     }
 }
